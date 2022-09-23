@@ -1,6 +1,6 @@
-const assert = require("../core/assert/assert");
-const sqr = require("../core/sqr/sqr");
-var User = require("../core/user/user");
+const assert = require("../src/core/assert/assert");
+const sqr = require("../src/core/sqr/sqr");
+var User = require("../src/core/user/user");
 
 // Bateria de testes
 function main() {
