@@ -25,4 +25,11 @@ describe("Testing of authentication", () => {
     it("Testing getName", () => {
         expect(admin).toBe(admin);
     });
+
+    it("Testing setName", () => {
+        expect(admin.setName(admin.getName())).toBe("admin");
+    });
+    it("Testing setPassword", () => {
+        expect(admin.setPassword(admin.getPassword())).toBe("123456");
+    });
 });
